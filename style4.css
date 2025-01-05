@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('gambarden/wallpaperflare.com_wallpaper (2).jpg'); /* Add the image path here */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-position: center; /* Centers the image */
+}
+
+/* Header Section */
+.header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Favorites Section */
+.favorites-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Favorite Category Styling */
+.favorite-category {
+    background-color: white;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.favorite-category img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid purple;
+    padding: 10px;
+    text-align: left;
+}
+
+table a {
+    color: purple;
+    text-decoration: none;
+}
+
+
+
+/* Recipes Section */
+.recipes-container {
+    display: flex;
+    gap: 30px; /* Adds spacing between recipe cards */
+    justify-content: center; /* Centers the cards horizontally */
+    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    padding: 20px; /* Increased padding for larger content */
+    width: 300px; /* Made the card wider */
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for better visibility */
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px; /* Fixed height for images to look consistent */
+    object-fit: cover; /* Ensures the image covers the area */
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.recipe-card h3 {
+    color: purple;
+    font-size: 20px; /* Slightly larger font size */
+    margin-bottom: 15px;
+}
+
+.recipe-card ul, 
+.recipe-card ol {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    font-size: 16px; /* Slightly larger text */
+    line-height: 1.5; /* Adds spacing between lines */
+}
+
+audio, {
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 20;
+}
+
+iframe {
+    margin: 2px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+
+a:hover
+{
+        color: black;
+        background-color: green;
+        text-decoration: underline;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 15px;
+}
+
+a:link
+    {
+        color: greenyellow;
+        background-color: blueviolet;
+        text-decoration: none;
+        text-align:center;
+        font-family:    Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px;
+    }

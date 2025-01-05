@@ -1,0 +1,328 @@
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        background-image: url('gambarden/wallpaperflare.com_wallpaper\ \(4\).jpg'); /* Add the image path here */
+        background-size: cover; /* Ensures the image covers the entire background */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        background-position: center; /* Centers the image */
+    }
+  
+  header {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  
+  h2 {
+    text-align: center;
+    color: #0078d7;
+  }
+  
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; /* Optional: Makes the table look cleaner */
+  }
+  
+  .center th,
+  .center td {
+    text-align: center; /* Optional: Centers the text within the cells */
+    padding: 8px;       /* Adds padding inside the cells */
+  }
+  
+  .center th {
+    background-color: #f2f2f2; /* Optional: Adds a header background color */
+  }
+
+  .tables-container {
+    display: flex;
+    justify-content: space-between; /* Ruang antara jadual */
+    gap: 20px; /* Jarak antara dua jadual */
+  }
+  
+  .table-wrapper {
+    width: 45%; /* Lebar setiap jadual */
+  }
+  
+  table {
+    width: 100%; /* Jadual memenuhi ruang div */
+    border-collapse: collapse; /* Garisan jadual lebih kemas */
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd; /* Garisan di sekeliling sel */
+    text-align: center; /* Teks di tengah */
+    padding: 8px; /* Jarak dalam sel */
+  }
+  
+  table th {
+    background-color: #f2f2f2; /* Latar belakang untuk header jadual */
+  }
+
+  .diploma-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Jarak antara barisan */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Jarak antara jadual dalam barisan */
+  }
+  
+  .table-wrapper {
+    width: 45%; /* Lebar setiap jadual */
+  }
+  
+  table {
+    width: 100%; /* Jadual memenuhi ruang div */
+    border-collapse: collapse; /* Jadual lebih kemas */
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd; /* Garisan sel */
+    text-align: center; /* Pusatkan teks */
+    padding: 8px; /* Jarak dalam sel */
+  }
+  
+  table th {
+    background-color: #f2f2f2; /* Latar belakang header */
+  }
+
+  .school-logo {
+    display: block;
+    margin: 10px auto; /* Pusatkan logo */
+    max-width: 280px; /* Saiz maksimum logo */
+    height: auto; /* Pastikan nisbah gambar kekal */
+  }
+
+  .result-image {
+    display: block; /* Letak gambar di baris sendiri */
+    margin: 10px auto; /* Pusatkan gambar */
+    max-width: 500px; /* Hadkan saiz maksimum gambar */
+    height: auto; /* Kekalkan nisbah gambar */
+    border: 2px solid #ddd; /* Tambahkan bingkai (pilihan) */
+    border-radius: 8px; /* Buatkan gambar bulat di penjuru (pilihan) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayang (pilihan) */
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px; /* Jarak dari tepi skrin */
+    background-color: #f4f4f4; /* Warna latar belakang laman web */
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  .school-logo {
+    display: block;
+    margin: 10px auto;
+    max-width: 300px; /* Saiz maksimum logo */
+  }
+  
+  table {
+    width: 90%; /* Lebar jadual */
+    margin: 20px auto; /* Jarak antara jadual dan dinding tepi */
+    border-collapse: collapse; /* Buang jarak antara border */
+    background-color: #ffffff; /* Warna latar putih */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambah bayang pada jadual */
+    border-radius: 10px; /* Penjuru bulat */
+  }
+  
+  th, td {
+    padding: 10px; /* Ruang dalam sel */
+    text-align: center; /* Teks di tengah */
+    border: 1px solid #ddd; /* Border nipis untuk setiap sel */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Warna latar untuk header */
+    font-weight: bold;
+  }
+  
+  .result-image {
+    display: block;
+    margin: 20px auto; /* Jarak dengan elemen lain */
+    max-width: 200px; /* Hadkan lebar maksimum */
+    height: auto;
+    border: 2px solid #ddd; /* Bingkai gambar */
+    border-radius: 8px; /* Penjuru bulat */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambah bayang */
+  }
+  
+  .table-wrapper {
+    margin: 20px auto;
+    padding: 15px; /* Ruang dalam sekitar jadual */
+    background-color: #ffffff; /* Latar putih untuk kotak jadual */
+    border-radius: 10px; /* Penjuru bulat */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambah bayang */
+    width: 95%; /* Lebar kotak jadual */
+  }
+  
+  .diploma-container .row {
+    display: flex;
+    justify-content: space-around; /* Jarak antara jadual */
+    flex-wrap: wrap; /* Supaya jadual rapat dalam ruang kecil */
+    margin-bottom: 20px; /* Jarak antara baris */
+  }
+  
+  .diploma-container .table-wrapper {
+    flex: 1;
+    max-width: 45%; /* Hadkan lebar maksimum setiap jadual */
+    margin: 10px;
+  }
+
+  .groupmates-container {
+    display: flex;
+    justify-content: space-around; /* Susunan seimbang */
+    flex-wrap: wrap; /* Responsif untuk skrin kecil */
+    gap: 20px; /* Jarak antara kotak */
+    margin: 20px auto; /* Jarak dari elemen lain */
+    padding: 10px;
+  }
+  
+  .groupmate-box {
+    background-color: #ffffff; /* Latar belakang putih */
+    border-radius: 10px; /* Penjuru bulat */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayang */
+    padding: 15px; /* Ruang dalam kotak */
+    text-align: center; /* Kandungan di tengah */
+    max-width: 200px; /* Lebar maksimum */
+    flex: 1; /* Responsif */
+  }
+  
+  .groupmate-box img {
+    max-width: 100%; /* Gambar penuh dalam kotak */
+    border-radius: 10px; /* Penjuru bulat gambar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayang gambar */
+    margin-bottom: 10px; /* Jarak dengan teks */
+  }
+  
+  .groupmate-box h4 {
+    margin: 10px 0 5px; /* Jarak dengan elemen lain */
+    font-size: 1.2em; /* Saiz teks */
+  }
+  
+  .groupmate-box p {
+    font-size: 0.9em; /* Saiz teks keterangan */
+    color: #555; /* Warna teks keterangan */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  .main-hobby img,
+  .side-hobbies .hobby img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+  }
+  
+  .main-hobby p,
+  .side-hobbies .hobby p {
+    text-align: center;
+  }
+  
+  .side-hobbies {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .hobby {
+    flex: 1 1 150px;
+    max-width: 200px;
+  }
+  
+  .gallery img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+  }
+  
+  .gallery p {
+    text-align: center;
+  }
+
+  a:hover
+  {
+          color: black;
+          background-color: blueviolet;
+          text-decoration: underline;
+          font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          padding: 15px;
+  }
+  
+  a:link
+      {
+          color: black;
+          background-color: rosybrown;
+          text-decoration: none;
+          text-align:center;
+          font-family:    Verdana, Geneva, Tahoma, sans-serif;
+          padding: 15px;
+      }
+
+
+  

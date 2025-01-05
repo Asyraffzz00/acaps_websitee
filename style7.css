@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-section {
+    width: 100%;
+    max-width: 1200px;
+    border: 2px solid #000;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-video {
+    text-align: center;
+}
+
+.main-box {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box video {
+    width: 100%;
+    height: auto;
+}
+
+.random-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+.video-box {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-box video {
+    width: 100%;
+    max-width: 200px; /* Lebar maksimum untuk video */
+    height: 300px; /* Ketinggian tetap untuk mod portrait */
+    object-fit: cover; /* Memastikan video mengisi kotak tanpa ubah bentuk */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Fix the layout for landscape images (1, 2, 3) */
+.gallery-item img:nth-child(1), 
+.gallery-item img:nth-child(2), 
+.gallery-item img:nth-child(3) {
+    height: 200px; /* Set height for landscape images */
+    object-fit: cover;
+}
+
+/* Fix the layout for portrait images (4, 5, 6) */
+.gallery-item img:nth-child(4),
+.gallery-item img:nth-child(5),
+.gallery-item img:nth-child(6) {
+    height: 300px; /* Set height for portrait images */
+    object-fit: cover;
+}
+
+/* Ensure all other images (7, 8, 9) fit nicely */
+.gallery-item img:nth-child(7),
+.gallery-item img:nth-child(8),
+.gallery-item img:nth-child(9) {
+    height: 200px; /* Default height for the last row */
+    object-fit: cover;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+a:hover
+{
+        color: black;
+        background-color: yellow;
+        text-decoration: underline;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 15px;
+}
+
+a:link
+    {
+        color: black;
+        background-color: whitesmoke;
+        text-decoration: none;
+        text-align:center;
+        font-family:    Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      background-image: url('gambarden/llllll.jpg'); /* Add the image path here */
+      background-size: cover; /* Ensures the image covers the entire background */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+      background-attachment: fixed; /* Keeps the background fixed while scrolling */
+      background-position: center; /* Centers the image */
+  }
