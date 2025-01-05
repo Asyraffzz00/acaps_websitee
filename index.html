@@ -1,0 +1,162 @@
+<html>
+<head>
+    <title>My Biodata</title>
+    <style>
+        /* Basic reset */
+        body, h1, p, a {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('gambarden/wallpaperflare.com_wallpaper\ \(1\).jpg'); /* Add the image path here */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-position: center; /* Centers the image */
+    color: aqua;
+}
+        .container {
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 15px;
+        }
+
+        .menu-items {
+            margin-top: 30px;
+        }
+
+        .menu-item {
+            font-size: 1.2em;
+            margin: 15px 0;
+            background: linear-gradient(90deg, #ff758c, #ff7eb3);
+            padding: 15px 30px;
+            border-radius: 25px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+        }
+
+        .menu-item:active {
+            transform: translateY(2px);
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.9em;
+            color: white;
+            letter-spacing: 1px;
+            text-align: center;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .footer span {
+            color: #ff758c;
+            font-weight: bold;
+        }
+
+        .thumbnails {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        .thumbnail {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .thumbnail img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .thumbnail:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Thumbnails Section -->
+    <div class="thumbnails">
+        <a href="https://www.facebook.com/asyraf.shamsuakmal" class="thumbnail" target="_blank">
+            <img src="gambarden/Facebook-icon-black-PNG-large-size.png" alt="Facebook">
+        </a>
+        <a href="https://www.tiktok.com/@captzy_" class="thumbnail" target="_blank">
+            <img src="gambarden/pngimg.com - tiktok_PNG27.png" alt="TikTok">
+        </a>
+        <a href="https://www.twitter.com" class="thumbnail" target="_blank">
+            <img src="gambarden/X-Logo.png" alt="X">
+        </a>
+        <a href="mailto:asyraf000004@gmail.com" class="thumbnail">
+            <img src="gambarden/EMAIL.png" alt="Email">
+        </a>
+        <a href="https://wa.me/60183620421" class="thumbnail" target="_blank">
+            <img src="gambarden/whatsapp_512_black.png" alt="WhatsApp">
+        </a>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="welcome">
+        <h2>WELCOME TO MY PERSONAL WEBSITE</h2>
+        <p>Here, you can explore my journey, projects, gallery, and contact details. Feel free to navigate through the menu!</p>
+    </div> <br>
+
+    <!-- Menu Section -->
+    <div class="container">
+        <h1>MY BIODATA</h1>
+        <p>Choose a section to explore:</p>
+
+        <div class="menu-items">
+            <a href="index.html" class="menu-item">HOME</a>
+            <a href="mylife.html" class="menu-item">ABOUT MY LIFE</a>
+            <a href="myfavorite2.html" class="menu-item">MY FAVOURITE</a>
+            <a href="myeducation.html" class="menu-item">MY EDUCATION</a>
+            <a href="myhobby&experience.html" class="menu-item">HOBBY AND EXPERIENCE</a>
+            <a href="mygallery.html" class="menu-item">MY GALLERY</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; <span> Muhammad Asyraf Syamsu Akmal</span> | All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
